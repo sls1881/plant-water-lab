@@ -23,6 +23,7 @@ numButton.addEventListener('click', () => {
 
     if (compareNumbers(userGuess, answerNumber) === 0) {
         highLowSpan.textContent = "You're correct!";
+        guessesRemainingSpan.textContent = 'Congratulations!';
     }
 
     if (compareNumbers(userGuess, answerNumber) === -1) {
@@ -34,7 +35,7 @@ numButton.addEventListener('click', () => {
     if (guessesRemaining > 0) {
         guessesRemainingSpan.textContent = `You have ${guessesRemaining} guesses remaining`;
     } else if (guessesRemaining <= 0) {
-        guessesRemainingSpan.textContent = "You're all out of turns.";
+        guessesRemainingSpan.textContent = "You're all out of turns. You lose.";
     }
 
 });

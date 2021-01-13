@@ -1,5 +1,5 @@
 
-body {
+body, button {
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
     /* --color1: hsla(349, 69%, 76%, 1);
     --color2: hsla(207, 67%, 44%, 1);
@@ -45,19 +45,20 @@ section {
     border: solid 2px var(--color1);
 }
 
-header {
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    height: var(--header-height);
-    box-shadow: var(--shadow);
+input {
+    width: 100px;
+    height: 30px;
 }
 
-footer {
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    box-shadow: var(--shadow);
+button {
+    border: solid 2px black;
+    background-color: black;
+    color: white;
+
+}
+
+.guesses {
+    padding: 10px;
 }
 
 h1 {
@@ -69,12 +70,20 @@ h2 {
     font-weight: bold;
 }
 
+p {
+    text-align: center;
+}
+
 img {
     max-width: 500px;
 }
 
 .img-box {
     padding: 20px;
+}
+
+.disappoint {
+    font-weight: bolder;
 }
 
 .gutter-right {
