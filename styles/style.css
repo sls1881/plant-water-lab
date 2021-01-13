@@ -60,10 +60,21 @@ footer {
     box-shadow: var(--shadow);
 }
 
+h1 {
+    font-size: 3rem;
+}
 
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
+}
+
+img {
+    max-width: 500px;
+}
+
+.img-box {
+    padding: 20px;
 }
 
 .gutter-right {
@@ -78,14 +89,8 @@ header img {
     height: var(--header-height);
 }
 
-
-
 content {
     width: 80%;
-}
-
-p {
-    margin: var(--gutter);
 }
   
 footer {
