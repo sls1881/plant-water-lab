@@ -15,6 +15,7 @@ const guessesRemainingSpan = document.getElementById('guesses-remaining');
 let guessesRemaining = 4;
 
 let answerNumber = Math.ceil(Math.random() * 20);
+console.log(answerNumber)
 
 // set event listeners to update state and DOM
 numButton.addEventListener('click', () => {
