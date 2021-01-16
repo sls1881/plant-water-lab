@@ -38,8 +38,6 @@ resetButton.addEventListener('click', () => {
     numButton.disabled = false;
     answerNumber = Math.ceil(Math.random() * 20);
     highLowSpan.textContent = '';
-    resetButton.style.display = 'none';
-
 });
 
 function numGuessesRemaining() {
