@@ -47,17 +47,23 @@ section {
 
 input {
     width: 100px;
-    height: 30px;
+    height: 40px;
 }
 
 button {
     border: solid 2px black;
     background-color: black;
     color: white;
+    width: 100px;
+    height: 40px;
 
 }
 
 .guesses {
+    padding: 10px;
+}
+
+.button {
     padding: 10px;
 }
 
